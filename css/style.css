@@ -1,0 +1,112 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --prim_color:#070F2B;
+    --sec_color:#1B1A55;
+    --tri_color:#535C91;
+    --four_color:#9290C3;
+}
+
+body{
+    background-color: var(--four_color)
+}
+
+.nav{
+    height: 60vh;
+    background-color: var(--sec_color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: 5rem;
+    border-radius: 4rem;
+    margin: 5rem;
+}
+.logoNtext{
+   
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.pri__text{
+   
+    color: aliceblue;
+   font-size: 2.5rem;
+
+}
+.logo{
+    height: 100%;
+}
+
+
+.frame{
+    position: absolute;
+    height: 500px;
+    width: 800px;
+    background-color:var(--prim_color);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 2rem;
+    
+}
+.screen{
+    height: 150px;
+    width: 700px;
+    background-color:black;
+margin: 1rem auto;
+border-radius: 2rem;
+}
+.numpad__sides{
+    display: flex;
+    justify-content: space-around;
+}
+.numpad__wrap{
+   display: flex;
+    padding: 1rem;
+}
+.numpad{
+    margin: 0.1rem;
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    color: aliceblue;
+    background-color:var(--four_color);
+    box-shadow: 1px 2px 5px black;
+    border-radius: 8px;
+    border: none;
+    margin: 0.2rem;
+    transition: 0.1s all;
+}
+.btn:hover{
+    background-color: var(--prim_color);
+}
+.sp{
+    margin-top: 0.2rem;
+    background-color: red;
+    height: 6.5rem;
+    
+}
+.screen{
+    position: relative;
+    
+}
+.output{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    color: aliceblue;
+    
+}
+.output_text{
+    font-size: 2rem;
+    
+}
