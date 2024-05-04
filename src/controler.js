@@ -4,7 +4,7 @@ import * as Modal from './modal'
 const controlHandler = function(input){
 
 Modal.controlInput(input)
-console.log(Modal.state.numDisplay);
+
 view.render(Modal.state.numDisplay)
 }
 

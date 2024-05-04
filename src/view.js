@@ -10,5 +10,6 @@ export const inputHandler = function(handler){
 }
 
 export const render = function(data){
+  
 screen.innerText = data
 }
