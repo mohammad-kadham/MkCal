@@ -5,7 +5,7 @@ const controlHandler = function(input){
 
 Modal.controlInput(input)
 
-view.render(Modal.state.numDisplay)
+view.render(Modal.state.Display)
 }
 
 
